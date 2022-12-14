@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>HR Attendance System</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="App_Themes/StyleSheet.css" />
+    <script type="text/javascript" src="JavaScript.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:Panel ID="pp1" runat="server" class="upperBoard">
+        <div class="Menuspan" id="menubar" onclick="opennavmenu()"></div>
+        <%--<asp:Button ID="menubar" runat="server" CssClass="Menuspan" Visible="false" OnClientClick="opennavmenu()"/>--%>
+        <div class="logo"></div>
+        <asp:Label ID="Label1" runat="server" Text="Attendance System" CssClass="HeadLabel" />
+        <asp:Button ID="Button1" runat="server" Text="Login" CssClass="buttonSign" OnClick="Button1_Click"/>
+    </asp:Panel>
+    <div class="slidemenuNav" id="myslidemenu">
+       <a href="#" onclick="closenavmenu()" class="closebtn"> x </a>     
+       <asp:Menu ID="Menu1" runat="server" CssClass="menu" Visible="false">
+            <Items>
+                <asp:MenuItem Text="Attendance" NavigateUrl="~/viewAttendance.aspx"/>
+                <asp:MenuItem Text="DashBoard" NavigateUrl="~/Timeline.aspx"/>
+                <asp:MenuItem Text="Manage Employee" NavigateUrl="~/ManageEmployee.aspx"/>
+                <asp:MenuItem Text="Manage Attendance" NavigateUrl="~/ManageAttendance.aspx" />
+                <asp:MenuItem Text="Manage Leaves" NavigateUrl="~/ManageLeave.aspx"/>
+                <asp:MenuItem Text="Manage Holidays" NavigateUrl="~/HolidayList.aspx"/>
+                <asp:MenuItem Text="Reports" NavigateUrl="~/viewReports.aspx"/>
+                <asp:MenuItem Text="Miscellaneous Activity" NavigateUrl="~/MiscellaneousAct.aspx" />
+                <asp:MenuItem Text="Salary Slip" NavigateUrl="~/SalarySlip.aspx" />
+                <asp:MenuItem Text="My Account" NavigateUrl="~/viewProfile.aspx"/>
+            </Items>
+        </asp:Menu>
+       <asp:Menu ID="Menu2" runat="server" CssClass="menu" Visible="False">
+            <Items>
+                <asp:MenuItem Text="Attendance" NavigateUrl="~/viewAttendance.aspx" />
+                <asp:MenuItem Text="DashBoard" NavigateUrl="~/Timeline.aspx"/>
+                <asp:MenuItem Text="Salary Slip" NavigateUrl="~/SalarySlip.aspx" />
+                <asp:MenuItem Text="Leave Request" NavigateUrl="~/RequestLeave.aspx"/>
+                 <asp:MenuItem Text="Holiday List" NavigateUrl="~/HolidayList.aspx" />                               
+                <asp:MenuItem Text="Miscellaneous Activity" NavigateUrl="~/MiscellaneousAct.aspx" />                                        
+                <asp:MenuItem Text="My Account" NavigateUrl="~/viewProfile.aspx"/>
+            </Items>
+        </asp:Menu>
+       <asp:Menu ID="Menu3" runat="server" CssClass="menu" Visible="False">
+            <Items>
+                <asp:MenuItem Text="Attendance" NavigateUrl="~/viewAttendance.aspx" />
+                <asp:MenuItem Text="Timeline" NavigateUrl="~/Timeline.aspx"/>
+                <asp:MenuItem Text="Salary Slip" NavigateUrl="~/SalarySlip.aspx" />
+                <asp:MenuItem Text="Leave Request" NavigateUrl="~/RequestLeave.aspx"/>
+                <asp:MenuItem Text="Holiday List" NavigateUrl="~/HolidayList.aspx" />                             
+                <asp:MenuItem Text="My Account" NavigateUrl="~/viewProfile.aspx"/>
+            </Items>
+        </asp:Menu>
+        <asp:Menu ID="Menu4" runat="server" CssClass="menu" Visible="true">
+            <Items>
+                <asp:MenuItem Text="Home" NavigateUrl="~/Homepage.aspx" />
+                <asp:MenuItem Text="Gallery" NavigateUrl="~/GalaryPage.aspx" />
+                <asp:MenuItem Text="Our Team" NavigateUrl="~/OurTeam.aspx" />
+                <asp:MenuItem Text="Application Form" />
+            </Items>
+        </asp:Menu>
+    </div>       
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+        <div class="footer">
+            <div class="footerdiv">
+                <span class="About">Contact Us</span>
+
+                <span class="AboutDetails">
+                ABC Technologies<br />
+                Priyank Shah( Owner )<br />
+                +91 9898929322<br />
+                info@abctechnologies.com
+                </span>
+
+                <span class="AboutDetails">
+                        Address : <br />
+                        97, Harikrupa Tower,<br />
+                        Near Manekbaug Hall,<br />
+                        Ambawadi,<br />
+                        Ahmedabad.
+                </span>
+            </div>         
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,856 @@
+﻿            .bodycss {
+            overflow-x:hidden;
+            margin-left:-8px;
+            background-image:url(/BackGrounds/computer.jpg);
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+            width:101%;
+            }        
+
+            .upperBoard {
+            overflow-x:hidden;
+            padding:15px;
+            margin-top:-8px;
+            margin-left:-8px;
+            background-color:black;
+            width:99%;
+            height:50px;
+            color:white;
+            text-align:right;
+        }
+
+        .Menuspan {
+            background-image:url(/BackGrounds/menu_icon.png);
+            margin-top:10px;
+            height:35px;
+            width:35px;
+            float:left;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+        }
+
+        .PageDiv {
+            overflow-x:hidden;
+            margin-left:-8px;
+            background-image:url(/BackGrounds/computer.jpg);
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+            width:101%;
+            height:650px;
+        }
+
+            .PageDiv1 {
+            overflow-x:hidden;
+            margin-left:-8px;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+            width:101%;
+            height:636px;
+        }
+
+        .logo {  
+            float:left;
+            background-image:url(/BackGrounds/logo.png);
+            background-position:left;
+            background-repeat:no-repeat;
+            background-size:cover;
+            height:100%;
+            width:125px;
+        }
+
+        .HeadLabel { 
+            font-family:Calibri;
+            font-size:20px;
+            font-weight:300;
+            color:white;
+            text-align:center;
+            float:left;
+        }
+
+        .leftBoard {
+            margin-left:-8px;
+            background-color:black;
+            width:210px;
+            float:left;
+            height:600px;
+        }
+
+        .buttonSign {
+            margin-top:10px;
+            margin-right:10px;
+            width:120px;
+            background-color:black;
+            color:white;
+            height:35px;
+            font-family:'Copperplate Gothic';
+            font-size:22px;
+            font-weight:500;
+            border-radius:10px;
+        }
+
+        .buttonSign:hover {
+            background-color:#f1f1f1;
+            color:black;
+        }
+
+       .menu ul
+        {
+        width:100%;
+        }
+
+        .menu ul li
+        {
+            padding:5px;
+            text-align:left;
+            height:40px;
+            width:250px;
+            border-bottom: 1px ridge gray;
+            border-radius:10px;
+            font-family:Calibri;
+            font-weight:400;
+            font-size:20px;
+            background-color:transparent;
+        }
+
+        .menu ul li a
+        {
+            color: White;
+        }
+
+        .menu ul li a:hover
+        {
+            font-size:21px;
+            color:yellow;
+        }
+
+        .slidemenuNav a {
+            padding:8px 8px 8px 32px;
+            text-decoration:none;
+            display:block;
+            transition:0.3s;
+        }
+
+        .slidemenuNav {
+            background-color:black;
+            height:100%;
+            width:0%;
+            position:fixed;
+            z-index:1;
+            top:0px;
+            left:0;
+            overflow-x:hidden;
+            transition:0.5s;
+          
+        }
+
+        .closebtn {
+            color:white;
+            text-align:center;
+            vertical-align:central;
+            font-size:35px;
+            margin-top:15px;
+            margin-right:25px;
+            float:right;        
+            margin-bottom:75px;
+        }
+
+        .imgSize {
+            float:left;
+            height:30px;
+            width:30px;
+        }
+
+
+        .footer {
+            overflow-x:hidden;
+            margin-left:-8px;
+            background-color:black;
+            width:101%;
+            height:210px;
+        }
+
+        .footerdiv {
+            float:initial;
+            background-color:transparent;
+            transition:0.5s;
+            vertical-align:central;
+        }
+
+        .About {
+            width:100%;
+            margin:30px;
+            float:left;    
+            font-size:22px;
+            font-weight:500;
+            font-family:Calibri;
+            color:white;
+        }
+
+       .AboutDetails {
+            text-align:left;
+            margin-left:100px;
+            padding-left:40px;
+            float:left;   
+            font-size:19px;
+            font-weight:300;
+            font-family:Calibri;
+            color:white;
+        }
+
+    .charts {
+        width:100%;
+        height:100%;
+        font-family:Calibri;
+        border:2px ridge black;
+        border-radius:10%;
+    }
+
+    .profilepic {
+        height:300px;
+        width:300px;
+        border-radius:50%;
+    }
+
+    .profileDiv {
+        margin:20px 20px 20px 250px;
+        height:500px;
+        padding:20px;
+        text-align:center;
+        border:2px ridge black;
+        background-color:dimgray;
+    }
+
+    .profileTable {
+        width:100%;
+        height:100%;
+        background-color:black;
+        padding:15px;
+        vertical-align:central;
+        text-align:center;
+        opacity:0.8;
+    }
+
+    .profilelabel {
+        border:none;
+        font-family:'Baskerville Old Face';
+        font-weight:500;
+        font-size:22px;
+        background-color:transparent;
+        color:white;
+    }
+
+      .profilelbl {
+        border:none;
+        font-family:'Baskerville Old Face';
+        font-weight:500;
+        font-size:24px;
+        background-color:transparent;
+        color:whitesmoke;
+    }
+
+        .profMiniTable {
+            height:100%;
+            width:100%;
+            padding:15px;
+            vertical-align:central;
+            text-align:justify;
+        }
+
+        .tralign {
+            text-align:center;
+            vertical-align:central;
+        }
+
+        .profilename {
+            height:100%;
+            border:none;
+            width:100%;
+            border-bottom:1px ridge white;
+            font-family:Calibri;
+            font-weight:400;
+            font-size:60px;
+            background-color:transparent;
+            color:white;
+        }
+
+        .profilename:focus {
+            background-color:white;
+            color:black;
+        }
+
+        .profiletx {       
+            text-align:left;
+            margin:10px;
+            width:80%;
+            height:50%;
+            border:none;
+            font-family:Calibri;
+            font-weight:400;
+            font-size:20px;
+            background-color:transparent;
+            color:white;
+        }
+
+          
+
+        .profiletx:focus {
+            border:1px ridge black;
+            background-color:white;
+            color:black;
+        }
+
+         .profiletxt {       
+            text-align:left;
+            margin:10px;
+            width:80%;
+            height:50%;
+            border:none;
+            font-family:Calibri;
+            font-weight:400;
+            font-size:20px;
+            color:black;
+        }
+
+        .homeDiv {
+            margin-left:-8px;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+            width:101%;
+            height:490px;
+        }
+
+        .timelined {
+            width:100%;
+            height:50px;
+            margin:20px 0px 0px 10px;
+            text-align:center;
+            vertical-align:central;
+            border-radius:30px;
+        }
+      
+        .timeline-content {
+            padding-left:10px;
+            float:left;
+            text-align:left;
+            vertical-align:central;
+            background-color:black;
+            color:white;
+            font-family:'Copperplate Gothic';
+            font-weight:300;
+            font-size:18px;
+            height:100%;
+            width:76%;
+        }
+
+        .timeline-Date {
+            border-radius:30px;
+            height:50px;
+            background-color:goldenrod;
+            border-top:2px dotted white;
+            border-right:2px dotted white;
+            float:left;
+            color:black;
+            font-family:'Copperplate Gothic';
+            font-weight:400;
+            font-size:17px;
+            width:11%;
+            vertical-align:central;
+        }
+
+        .timeline-Date1 {
+            height:50px;
+            background-color:goldenrod;
+            border-right:2px dotted white;
+            float:left;
+            color:black;
+            font-family:'Copperplate Gothic';
+            font-weight:400;
+            font-size:17px;
+            width:11%;
+            vertical-align:central;
+        }
+ 
+       .homeData {
+            background-color:black;
+            margin-left:-8px;
+            width:101%;
+            height:520px;
+            opacity:0.9;
+        }
+
+        .homeD {
+            padding:15px;
+            float:left;
+            width:17.5%;
+            color:white;
+        }
+
+        .homeimg {
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+            height:130px;
+            width:130px;
+            border-radius:50%;
+        }
+
+        .hometxt {
+            text-align:left;
+            vertical-align:middle;
+            font-family:Calibri;
+            font-size:20px;
+            font-weight:400;
+        }
+
+        .salarylbl {
+            text-align:center;
+            font-family:'Baskerville Old Face';
+            font-size:20px;
+            font-weight:400;
+        }
+
+         .salaryhead {
+            text-align:center;
+            font-family:'Baskerville Old Face';
+            font-size:35px;
+            font-weight:400;
+        }
+
+        .salarytxt {
+            text-align:center;
+            font-family:'Baskerville Old Face';
+            font-size:20px;
+            font-weight:400;
+        }
+
+
+        .td1 {
+            text-align:center;
+            background-color:black;
+            color:white;
+        }
+
+        .tblSalary {
+            border:2px ridge black;
+            border-radius:10px;
+            padding:15px;
+            width:100%;
+            height:100%;
+        }
+
+        .tblsal {
+          float:left;
+          width:100%;
+          height:100%;
+        }
+
+        .tr1 {
+            text-align:center;
+        }
+
+        .btnadddel {
+            border:none;
+            background-color:black;
+            border-radius:10px;
+            height:40px;
+            width:40px;
+            text-align:center;
+            font-size:35px;
+            color:white;
+        }
+
+        .salaryDropdown {
+            font-family:Calibri;
+            font-size:20px;
+            text-align:center;
+            width:200px;
+            height:100%;
+            padding:10px;
+            color:black;
+        }
+
+        .salarySearchDiv {
+            text-align:center;
+            float:left;        
+            width:100%;
+            background-color:black;
+            height:50px;
+        }
+
+        .salaryBtn {
+            font-family:Calibri;
+            font-size:20px;
+            text-align:center;
+            width:60px;
+            height:40px;
+            color:black;
+        }
+        
+        .search {
+            border:none;
+            background-image:url(/BackGrounds/searchicon.png);
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:contain;
+            width:50px;
+            height:40px;
+            background-color:black;
+        }
+
+        .holidayPanel {
+            width:400px;
+            height:170px;
+            background-color:black;
+        }
+
+        .loginpanel {
+            margin-top:100px;         
+            text-align:center;
+            vertical-align:central;  
+            text-align:center;       
+            height:500px;
+            width:400px;
+            background-color:black;
+            border-radius:20px;
+            border:1px solid white;
+            opacity:1;
+            z-index:3;
+        }
+
+        .loginbackground {
+            padding-top:50px;
+            margin-left:-8px;
+            height:600px;
+            width:101%;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:100%;
+        }
+
+        .loginTable {
+            
+            text-align:center;
+            vertical-align:central;
+            width:100%;
+            height:100%;
+        }
+
+        .loglbl {
+            font-family:'Copperplate Gothic';
+            font-size:40px;
+            font-weight:600;
+            width:100%;
+            height:50px;
+            color:white;
+        }
+
+        .loginButton {
+            background-color:black;
+            color:white;
+            width:80%;
+            height:40px;
+            font-family:'Copperplate Gothic';
+            font-size:22px;
+            font-weight:500;
+            border-radius:10px;
+        }
+
+        .loginButton:hover {
+             background-color:#f1f1f1;
+            color:black;
+        }
+
+        .logintext {
+            padding-left:20px;
+            vertical-align:central;
+            font-family:'Copperplate Gothic';
+            font-weight:600;
+            font-size:20px;
+            color:black;
+            width:80%;
+            height:40px;
+            border-radius:10px;
+            background-color:#545454;
+            border:none;
+        }
+
+        .allGridview {
+            width:95%;
+            font-family:Calibri;
+            font-size:20px;
+            font-weight:400;
+            text-align:justify;
+            vertical-align:central;
+            color:white;
+        }
+
+        .timelinetxt {
+            font-family:Calibri;
+            font-size:22px;
+            font-weight:400;
+            height:35px;
+            width:175px;
+        }
+
+        .timelinedesc {
+            font-family:Calibri;
+            font-size:19px;
+            font-weight:400;
+            height:90%;
+            width:90%;
+        }
+
+        .timeldiv {
+            width:100%;
+            height:45px;
+            background-color:black;
+            text-align:center;
+            vertical-align:central;
+        }
+
+        .btn{
+		    margin-top:10px;
+		    border:none;
+		    border-radius:10px;
+		    background-color:black;
+		    color:white;
+		    width:300px;
+		    height:35px;
+		    font-family:calibari;
+		    font-size:20px;
+	    }
+	
+	    .btn:hover{
+		    background-color:white;
+		    color:black;
+		    border-bottom:1px solid black;
+	    }
+
+        .galleryImg {
+            margin-top:100px;
+            height:500px;
+            width:80%;
+        }
+
+        .tblimgs {
+            height:150px;
+            width:300px;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-size:100%;
+            background-color:black;
+            opacity:0.5;
+        }
+
+         .tblimgs:hover {
+             opacity:1;
+        }
+
+        .tblcss {
+            text-align:center;           
+            width:100%;
+            background-color:black;
+            opacity:0.9;
+            color:white;
+        }
+
+    .belowimg {
+        height: auto;
+        width: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+        .ValidErrors {
+            color:orangered;
+            font-size:20px;
+            font-weight:600;
+            font-family:Calibri;
+        } 
+
+        .LeaveHoliday1 {
+            font-family:Calibri;
+            font-size:22px;
+            font-weight:400;
+            height:35px;
+            width:175px;
+        }
+
+         .LeaveHoliday2 {
+            font-family:Calibri;
+            font-size:22px;
+            font-weight:400;
+            height:80px;
+            width:90%;
+        }
+
+        .attDate {
+            margin-top:5px;
+            font-family:Calibri;
+            font-size:19px;
+            color:white;
+            background-color:black;
+            height:25px;
+            width:100%;
+            float:right;
+            border:none;
+            text-align:center;
+            opacity:0.8;
+        }
+
+        .attdiv {
+            border:none;
+            font-family:Calibri;
+            font-size:22px;
+            color:white;
+            height:75px;
+            width:100%;
+            vertical-align:central;
+            text-align:center;
+            opacity:0.7;        
+        }
+
+        .AttendanceDiv {
+            float:left;            
+            border:1px solid black;
+            border-radius:10px;
+            padding:15px;
+            width:81%;
+            height:100%;
+        }
+
+        .DisplayAttendance {
+            height:100%;
+            width:100%;
+            border-radius:15px;
+        }
+
+        .tblP {
+            background-color:#545454;
+            height:20px;
+            width:20px;
+        }
+
+        .tblA {
+            background-color:lightgray;
+            height:20px;
+            width:20px;
+        }
+
+        .tblH {
+            background-color:deepskyblue;
+            height:20px;
+            width:20px;
+        }
+
+        .tblL {
+            background-color:goldenrod;
+            height:20px;
+            width:20px;
+        }
+
+        .tblList {
+            vertical-align:central;
+            text-align:center;
+            padding:20px;
+            float:left;
+            width:14%;
+            height:100%;
+        }
+
+
+        .circularprogress {
+         background-color:whitesmoke;
+         width: 150px;  
+         height: 110px;  
+         border-radius: 50%;
+         color: black;  
+        text-align: center; 
+        font-size: 45px;  
+        padding-top:40px;
+        font-family:Calibri;
+        font-weight:500;        
+        }
+
+
+        .popup {
+            background-image:url(Backgrounds/popup.png);
+            height:50px;
+            width:50px;
+            background-position:center;
+            background-repeat:round;
+            background-size:cover;
+        }
+
+        .closepop {
+            margin-right:20px;
+            border:none;
+            background-color:transparent;
+            color:yellow;
+            font-family:'Copperplate Gothic';
+            font-size:20px;
+            float:right;
+            height:25px;
+            width:25px;
+        }
+
+           .lgbtn {
+            border:none;
+            background-color:white;
+            color:black;
+            height:30px;
+            padding:3px 10px 5px 10px;
+            font-family:'Baskerville Old Face';
+            font-size:22px;
+            font-weight:500;
+            border-radius:10px;
+            
+        }
+
+
+        .reportSS {
+            border:5px solid black;
+            height:100%;
+            width:100%;
+            background-color:#f1f1f1;
+            color:black;
+        }
+
+        .tblcs {
+            text-align:center;           
+            width:100%;
+            height:200px;
+            background-color:black;
+            opacity:0.9;
+            color:white;
+        }
+
+        /*.background {  
+        background-image: linear-gradient(<%= wday %>, <%= ColorCode %> 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0)), linear-gradient(<%= pday %>, #AC2D36 100%, #ffffff 50%, #ffffff);  
+    }*/
+
+        /*.circularprogress {
+         background-color:black;
+         width: 180px;  
+         height: 180px;  
+         border-radius: 50%;
+        }*/
+
+        /*.circularprogress .overlay {             
+            width: 130px;  
+            height: 110px;  
+            color: white;  
+            background-color: #CF5760;  
+            border-radius: 50%;
+            text-align: center;  
+            line-height: 90px;  
+            font-size: 35px;
+            padding-top:20px;  
+          
+        }*/  
